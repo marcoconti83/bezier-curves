@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       157,          7]
-NotebookDataLength[     24583,        559]
-NotebookOptionsPosition[     23466,        516]
-NotebookOutlinePosition[     23821,        532]
-CellTagsIndexPosition[     23778,        529]
+NotebookDataLength[     24665,        560]
+NotebookOptionsPosition[     23548,        517]
+NotebookOutlinePosition[     23903,        533]
+CellTagsIndexPosition[     23860,        530]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -453,7 +453,7 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{"cubicBezier", " ", "=", " ", 
+  RowBox[{"quadraticBezier", " ", "=", " ", 
    RowBox[{"{", 
     RowBox[{
      RowBox[{"{", 
@@ -464,7 +464,8 @@ Cell[BoxData[
       RowBox[{"x3", ",", "y3"}], "}"}]}], "}"}]}], 
   "\[IndentingNewLine]"}]], "Input",
  CellChangeTimes->{{3.613046511921311*^9, 3.613046556079815*^9}, {
-  3.6130496584637003`*^9, 3.613049659220935*^9}}],
+  3.6130496584637003`*^9, 3.613049659220935*^9}, {3.6130559403680058`*^9, 
+  3.613055941965694*^9}}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -483,9 +484,9 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{"Bez", "[", 
-  RowBox[{"t", ",", " ", "cubicBezier"}], "]"}]], "Input",
+  RowBox[{"t", ",", " ", "quadraticBezier"}], "]"}]], "Input",
  CellChangeTimes->{{3.613046560163107*^9, 3.61304656369014*^9}, {
-  3.61304966613477*^9, 3.613049666850298*^9}}],
+   3.61304966613477*^9, 3.613049666850298*^9}, 3.613055944537237*^9}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -554,12 +555,12 @@ Cell[21122, 434, 236, 6, 28, "Input"],
 Cell[21361, 442, 245, 6, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[21643, 453, 449, 13, 46, "Input"],
-Cell[22095, 468, 330, 10, 28, "Output"]
+Cell[21643, 453, 504, 14, 46, "Input"],
+Cell[22150, 469, 330, 10, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22462, 483, 207, 4, 28, "Input"],
-Cell[22672, 489, 778, 24, 35, "Output"]
+Cell[22517, 484, 234, 4, 28, "Input"],
+Cell[22754, 490, 778, 24, 35, "Output"]
 }, Open  ]]
 }
 ]
